@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+</head>
+<body>
+<h1> Welcome to simple API listener</h1>
+<p> Please login using your credentials</p>
+    <form method="post" action="/authorise">
+        <div>
+            <label> Username : </label>
+            <input type="text" id="username" name="Username" placeholder="Enter the name" required>
+        </div>
+
+        <div>
+            <label> Password : </label>
+            <input type="text" id="Password" name="Password" placeholder="Enter the password" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Save" formaction="/save">
+            <input type="submit" value="login">
+            <input type="submit" value="Get" formaction="/get_user">
+            <input type="submit" value="Delete" formaction="/delete">
+            <input type="submit" value="Update" formaction="/update">
+            <input type="reset" value="Reset" formaction="/">
+        </div>
+    </form>
+</body>
+</html>
